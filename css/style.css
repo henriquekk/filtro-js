@@ -1,0 +1,128 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.imagem-produto{
+    width:100%;
+}
+
+.descricao-produto{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.preco-produto{
+    position: relative;
+    font-weight: bold;
+    font-size: 2.1rem;
+    margin: 50px 10px 10px 10px;
+}
+
+.borda-filtro{
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    background: transparent;
+    border: 2px transparent solid;
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 14%), 0px 4px 5px rgb(0 0 0 / 12%), 0px 1px 10px rgb(0 0 0 / 20%)
+}
+
+.filtro-texto-principal{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.filtro-texto{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;  
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.btn-filtro-estilo{
+    background-color: #19C8DB;
+    border: 1px solid #0c91a0;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    max-width: 100px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.753);
+    display: block;
+    font-size: 1.2rem;
+}
+
+.btn-filtro-estilo, .custom-checkbox label:hover{
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.btn-filtro-estilo:hover{
+    background-color: #0ca2b3;
+    transform: scale(1.05);
+}
+
+.custom-checkbox{
+    margin: 8px;
+    font-size: 1.4em;
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.custom-checkbox input + label::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 4px;
+    background-color: white;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 0 8px 3px 8px;
+}
+
+.custom-checkbox input:checked + label:before{
+    background-color: #19C8DB;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    border: none;
+    padding: 1px;
+    background-position: center;
+}
+
+.produtos-box{
+    display:block;
+    margin: 50px 0 50px 350px;
+
+}
+
+.caixa-pagina-produtos{
+    display: inline-block;
+    width: 20%;
+    background: transparent;
+    border: 2px transparent solid;
+    border-radius: 10px;  
+    margin:25px 3.25% 25px 3.25%;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 14%), 0px 4px 5px rgb(0 0 0 / 12%), 0px 1px 10px rgb(0 0 0 / 20%)       
+}
+
+.filtro-hide{
+    display: none;
+}
+

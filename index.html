@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doce Arte Studio</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <main>
+        <div class="borda-filtro">
+            <h1 class="filtro-texto-principal">Todos os produtos</h1>
+            <p class="filtro-texto">Filtro:</p>
+            <div id="lista-filtro">   
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro" type="checkbox"  value="bloquinhos">
+                    <label for="checkbox-filtro">Bloquinhos</label>
+                </div>  
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-2" type="checkbox" value="cadernos">
+                    <label for="checkbox-filtro-2">Cadernos</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-3" type="checkbox"  value="canecas">
+                    <label for="checkbox-filtro-3">Canecas</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-4" type="checkbox"  value="copos">
+                    <label for="checkbox-filtro-4">Copos</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-5" type="checkbox"  value="decoracao">
+                    <label for="checkbox-filtro-5">Decoração</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-6" type="checkbox"  value="festas">
+                    <label for="checkbox-filtro-6">Festas</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-7" type="checkbox" value="infantil">
+                    <label for="checkbox-filtro-7">Infantil</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-8" type="checkbox" value="kits">
+                    <label for="checkbox-filtro-8">Kits</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="filtro-checkbox-produtos" name="categorias" id="checkbox-filtro-9" type="checkbox" value="xicaras">
+                    <label for="checkbox-filtro-9">Xícaras</label>
+                </div>
+            </div>    
+            <button id="botao-filtro" class="btn-filtro-estilo">Filtrar</button>
+            <button id="botao-limpar-filtro" class="btn-filtro-estilo">Limpar filtro</button>
+        </div>
+        <div class="produtos-box">
+            <div class="caixa-pagina-produtos bloquinhos">
+                <img class="imagem-produto" src="images/bloquinho.png" alt="Bloquinho">
+                <p class="descricao-produto">Bloquinho</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos canecas">
+                <img class="imagem-produto" src="images/caneca.png" alt="Caneca">
+                <p class="descricao-produto">Caneca</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos cadernos">
+                <img class="imagem-produto" src="images/caderno.png" alt="Caderno">
+                <p class="descricao-produto">Caderno</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos copos">
+                <img class="imagem-produto" src="images/copo.png" alt="Copo">
+                <p class="descricao-produto">Copo</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos decoracao">
+                <img class="imagem-produto" src="images/decoracao.png" alt="Decoração">
+                <p class="descricao-produto">Decoração</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos festas">
+                <img class="imagem-produto" src="images/festa.png" alt="Festa">
+                <p class="descricao-produto">Festa</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos infatil">
+                <img class="imagem-produto" src="images/infantil.png" alt="Infantil">
+                <p class="descricao-produto">Infantil</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos kits">
+                <img class="imagem-produto" src="images/kit.png" alt="Kit">
+                <p class="descricao-produto">Kit</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+            <div class="caixa-pagina-produtos xicaras">
+                <img class="imagem-produto" src="images/xicara.png" alt="Xícara">
+                <p class="descricao-produto">Xícara</p>
+                <p class="preco-produto">R$ 40,00</p>
+            </div>
+        </div>
+    </main>
+        <script src="js/filtro.js"></script>
+    </body>
+</html>
